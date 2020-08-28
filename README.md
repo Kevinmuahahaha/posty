@@ -21,7 +21,7 @@ for GUI client use:
   pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
   ```
 
-# Setup
+# Client Setup
 1. setup virtualenv
   ```
 	pip install virtualenv
@@ -43,7 +43,9 @@ for GUI client use:
   ```
 	
 
-# Configuring Server-side (Tested on Ubuntu16.04)
+# Server Setup
+
+(Tested on Ubuntu16.04)
 
 1. Configuring MongoDB
 ```
