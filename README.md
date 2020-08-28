@@ -1,6 +1,6 @@
 # posty
 Share and fetch messages( or any data ) within CLI across the web.
-![image demo](https://github.com/Kevinmuahahaha/posty/blob/master/miscs/out.png)
+![image demo](https://github.com/Kevinmuahahaha/posty/blob/master/miscs/demo.png)
 
 # Running
 
