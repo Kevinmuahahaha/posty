@@ -1,5 +1,7 @@
 # posty
 Share and fetch messages( or any data ) within CLI across the web.
+
+Using TCP socket.
 ![image demo](https://github.com/Kevinmuahahaha/posty/blob/master/miscs/demo.png)
 
 # Running
