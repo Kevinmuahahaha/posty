@@ -1,0 +1,8 @@
+from aes.aes_dec import aes_dec
+from aes.aes_enc import aes_enc
+
+#f = open("file.txt","r")
+#content_binary = f.read().encode()
+#ret = aes_enc( content_binary, id )
+
+#ret = aes_dec( ret, "id.key", "id.nonce" )
