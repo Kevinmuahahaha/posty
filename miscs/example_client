@@ -1,0 +1,36 @@
+from mod.modsocket.recvall import recvall
+from mod.modlog import debug, bad, good
+from mod.mod_client_data_operation import ls, touch, cat
+import socket
+import sys
+HOST_IP="127.0.0.1"
+HOST_PORT=23869
+
+
+posting = open("file.exe","rb")
+content = posting.read()
+posting.close()
+
+result = touch(content, HOST_IP, HOST_PORT)
+print("File saved to ID: " + str(result))
+
+
+#data = cat('4fdf4d2a-89fc-11ea-8fcb-e84e06601529'.encode(), HOST_IP, HOST_PORT)
+#saving = open("1output.exe","wb")
+#saving.write(data)
+#saving.close()
+
+
+#--------------------------------------------------
+#ret = ls(HOST_IP, HOST_PORT)
+#for item in ret:
+#    print(item)
+#
+#result = touch("blabhlabhblah".encode() ,HOST_IP, HOST_PORT)
+#print(result)
+#
+#data = cat('927a930c-8929-11ea-b58c-56000279bc8b'.encode(), HOST_IP,HOST_PORT)
+#if data == None:
+#    print("No content")
+#else:
+#    print(data.decode())

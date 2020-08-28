@@ -1,0 +1,16 @@
+from data_operation import touch, cat, ls, rm
+
+
+status = touch("id-test-1x",b"blah blah")
+print(status)
+
+status = cat("id-test-0x")
+#status is a dict
+
+for item in ls():
+    print(item["postid"])
+#ls returns a list of dicts
+
+status = rm("some-post-id")
+if status == 0:
+    print("Deleting non-existing item.")
